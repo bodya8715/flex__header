@@ -11,7 +11,7 @@
 
 .header {
     background-color: #262626;
-    padding: 10px;
+    padding: 20px;
 }
 
 .header__flex {
@@ -48,9 +48,8 @@
 }
 
 .header__logo,
-.header__nav,
-.header__contact {
-    margin: 15px 10px;
+.header__nav {
+    margin: 10px 10px 10px 0;
 }
 
 .header__logo {
@@ -61,11 +60,12 @@
     font-weight: bold;
     display: inline-block;
     vertical-align: middle;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 .header__contact {
     padding: 20px 40px;
+    margin: 10px 0px 10px 0;
     border: 2px solid #fff;
     border-radius: 4px;
     font-weight: bold;
